@@ -1,2 +1,2 @@
-# TIE-TAC-TOE
-an attempt at tic tac toe
+# Duck-Checkers
+an attempt at checkers
