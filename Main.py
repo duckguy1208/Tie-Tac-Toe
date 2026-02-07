@@ -44,16 +44,16 @@ else:
     
 
 #players 
-player1 = input("Is player 1 X or O? ").upper()
+player1 = input("Is player 1 X or T? ").upper()
 player2 = ""
 if player1=="X":
-    player2="O"
-elif player1=="O":
+    player2="T"
+elif player1=="T":
     player2="X"
 else:
     print("invalid choice, defaulting to X")
     player1="X"
-    player2="O"
+    player2="T"
 
 print("player 1 is", player1)
 print("player 2 is", player2)
@@ -122,5 +122,6 @@ while game_over == False:
     if check_win(board):
         print("player 2 wins!")
         break
+
 
 #idk what to put next just yet
